@@ -17,7 +17,6 @@ def klasifikasikan(img_path):
     # resize image
     img_resized = cv2.resize(img, (224, 224))
     
-    # ekstrak fitur GCLM
     gray = cv2.cvtColor(img_resized, cv2.COLOR_BGR2GRAY)
     gray = (gray / 32).astype(np.uint8)
     
