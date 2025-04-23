@@ -1,2 +1,5 @@
 .venv/
+.conda/
+.ipynb_checkpoints/
+anaconda_projects/
 wood_texture_classifier_model.keras
